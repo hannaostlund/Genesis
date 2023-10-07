@@ -1,0 +1,57 @@
+$main-txt-color: #111;
+$main-font-family: 'Mulish'; 
+
+.top-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title-container {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.title-container h3 {
+    color: #4A4FF2;
+    font-family: $main-font-family;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.423px;
+}
+
+.title-container h1 {
+    color: $main-txt-color;
+    font-family: $main-font-family;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.quote-container  {
+    width: 50%;    
+    display: flex;
+    padding-right: 0px;
+    flex-direction: column;
+    align-self: flex-end;
+    color: $main-txt-color; 
+    opacity: 0.6;
+    font-family: $main-font-family;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    order: 2;
+}
+
+.frame-container {
+    display: grid;
+}
