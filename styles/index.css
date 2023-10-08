@@ -1,1 +1,86 @@
-.top-content-container{display:flex;justify-content:space-between;align-items:flex-start}.title-container{display:flex;width:50%;flex-direction:column;justify-content:center;align-items:flex-start;gap:32px}.title-container h3{color:#4A4FF2;font-family:"Mulish";font-size:22px;font-style:normal;font-weight:700;line-height:normal;letter-spacing:-0.423px}.title-container h1{color:#111;font-family:"Mulish";font-size:40px;font-style:normal;font-weight:700;line-height:60px}.quote-container{width:50%;display:flex;padding-right:0px;flex-direction:column;align-self:flex-end;color:#111;opacity:0.6;font-family:"Mulish";font-size:18px;font-style:italic;font-weight:400;line-height:normal;order:2}.frame-container{display:grid}
+body {
+  background-color: white;
+  color: #111111;
+  width: 1079px;
+  height: 106px;
+}
+
+.top-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title-container {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.title-container h3 {
+  color: #4A4FF2;
+  font-family: "Mulish";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.423px;
+}
+
+.title-container h1 {
+  color: #111111;
+  font-family: "Mulish";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.quote-container {
+  width: 50%;
+  display: flex;
+  padding-right: 0px;
+  flex-direction: column;
+  align-self: flex-end;
+  color: #111111;
+  opacity: 0.6;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  order: 2;
+}
+
+.image-container .services {
+  display: flex;
+  align-content: center;
+  width: 1079px;
+  flex-shrink: 0;
+}
+
+.h2-container {
+  color: #111111;
+  font-family: "Mulish";
+  flex: 1;
+}
+
+.list-container {
+  flex: 1;
+  color: #111111;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+}
+
+.list-container ul {
+  -moz-columns: 2;
+       columns: 2;
+  list-style: none;
+}/*# sourceMappingURL=index.css.map */

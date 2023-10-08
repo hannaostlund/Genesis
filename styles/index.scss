@@ -1,5 +1,12 @@
-$main-txt-color: #111;
+$color: #111111; 
 $main-font-family: 'Mulish'; 
+
+body {
+    background-color: white;
+    color: $color;
+    width: 1079px;
+    height: 106px;
+}
 
 .top-content-container {
     display: flex;
@@ -27,7 +34,7 @@ $main-font-family: 'Mulish';
 }
 
 .title-container h1 {
-    color: $main-txt-color;
+    color: $color;
     font-family: $main-font-family;
     font-size: 40px;
     font-style: normal;
@@ -42,7 +49,7 @@ $main-font-family: 'Mulish';
     padding-right: 0px;
     flex-direction: column;
     align-self: flex-end;
-    color: $main-txt-color; 
+    color: $color; 
     opacity: 0.6;
     font-family: $main-font-family;
     font-size: 18px;
@@ -52,6 +59,35 @@ $main-font-family: 'Mulish';
     order: 2;
 }
 
-.frame-container {
-    display: grid;
-}
+.image-container 
+
+.services {
+    display: flex;
+    align-content: center;
+    width: 1079px;
+    flex-shrink: 0;
+  }
+  
+  .h2-container {
+    color: $color;
+    font-family: $main-font-family;
+    flex: 1; 
+  }
+  
+  .list-container {
+    flex: 1; 
+    color: $color;    
+    font-family: $main-font-family;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+  }
+  
+  .list-container ul {
+    columns: 2;
+    list-style: none;
+  }
+  
+
