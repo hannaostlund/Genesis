@@ -1,9 +1,13 @@
+@import 'header';
+
+
 $color: #111111; 
 $main-font-family: 'Mulish'; 
 
 body {
     background-color: white;
     color: $color;
+    margin: auto;
     width: 1079px;
     height: 106px;
 }
@@ -91,3 +95,9 @@ body {
   }
   
 
+hr {
+  width: 1110px;
+  height: 2px;
+  flex-shrink: 0;
+  background: #D8D8D8;
+}
