@@ -1,4 +1,5 @@
 @import 'header';
+@import 'footer';
 
 
 $color: #111111; 
@@ -10,6 +11,7 @@ body {
     margin: auto;
     width: 1079px;
     height: 106px;
+    margin-bottom: 30px;
 }
 
 .top-content-container {
@@ -63,23 +65,21 @@ body {
     order: 2;
 }
 
-.image-container 
-
 .services {
-    display: flex;
-    align-content: center;
-    width: 1079px;
-    flex-shrink: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; 
+  align-items: start;
   }
   
   .h2-container {
+    grid-column: 1 / 2;
     color: $color;
     font-family: $main-font-family;
-    flex: 1; 
   }
   
   .list-container {
-    flex: 1; 
+    grid-column: 2 / 3;
     color: $color;    
     font-family: $main-font-family;
     font-size: 18px;
@@ -88,12 +88,21 @@ body {
     line-height: normal;
     opacity: 0.6;
   }
-  
-  .list-container ul {
-    columns: 2;
-    list-style: none;
+
+  .group1 {
+    grid-column: 1 / 2; 
   }
   
+  .group2 {
+    grid-column: 1 / 2; 
+  }
+  
+  .list-container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
 
 hr {
   width: 1110px;
@@ -101,3 +110,70 @@ hr {
   flex-shrink: 0;
   background: #D8D8D8;
 }
+
+.award-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+}
+
+.first-column {
+  color: $color;
+  font-family: $main-font-family;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  flex: 1; 
+  text-align: left;
+  padding: 5px; 
+}
+
+.second-column {
+  flex: 1; 
+  text-align: left;
+  padding: 5px;
+  color: $color;
+  font-family: $main-font-family;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.third-column {
+  flex: 1; 
+  text-align: left;
+  padding: 5px; 
+  flex-grow: 2;
+  color: $color;
+  font-family: $main-font-family;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  opacity: 0.6;
+}
+
+.fourth-column {
+  flex: 1; 
+  text-align: left;
+  padding: 5px; 
+  text-align: right;
+  color: $color;
+  text-align: $main-font-family;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
