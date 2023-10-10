@@ -1,10 +1,67 @@
 $color: #111111; 
 $main-font-family: 'Mulish'; 
 
+body {
+  background-color: white;
+  color: $color;
+  margin: auto;
+  width: 1079px;
+  height: 106px;
+  margin-bottom: 30px;
+}
 
-.container1 {
+h1 {
+  color: $color;
+  font-family: $main-font-family;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px; /* 137.5% */
+  }
+
+  p {
+  color: $color;
+  font-family: $main-font-family;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  }
+
+.section-3 {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.text-block-3 {
+  display: flex;
+}
+
+.text-content-3 {
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 670px; 
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.column {
+  flex: 1; 
+  margin-right: 10px;
+  color: #111;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.6;
+  white-space: nowrap;
 }
 
