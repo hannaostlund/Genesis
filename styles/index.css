@@ -51,7 +51,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 1109px;
-  height: 23px;
   flex-shrink: 0;
   margin: 0 auto;
   padding: auto;
@@ -65,6 +64,7 @@ footer {
 
 .footer-right {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -76,6 +76,7 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
+  margin-right: 50px;
 }
 
 li {
@@ -91,6 +92,12 @@ a {
   line-height: normal;
   letter-spacing: -0.346px;
   text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 body {
@@ -511,6 +518,7 @@ hr {
   height: 2px;
   flex-shrink: 0;
   background: #D8D8D8;
+  margin-bottom: 20px;
 }
 
 .cv-grid {
@@ -518,6 +526,7 @@ hr {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 0;
+  margin-bottom: 20px;
 }
 
 .p1 {
@@ -544,60 +553,140 @@ hr {
 
 .p3 {
   grid-row: 1;
-  grid-column: 5;
+  grid-column: 4/6;
+  color: #111111;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .p4 {
   grid-row: 2;
-  grid-column: 5;
+  grid-column: 4/6;
+  color: #111111;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .p5 {
   grid-row: 3;
-  grid-column: 5;
+  grid-column: 4/6;
+  color: #111111;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .p6 {
   grid-row: 4;
-  grid-column: 5;
+  grid-column: 4/6;
+  color: #111111;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .p7 {
   grid-row: 1;
-  grid-column: 7;
+  grid-column: 7/9;
+  color: #111111;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.6;
 }
 
 .p8 {
   grid-row: 2;
-  grid-column: 7;
+  grid-column: 7/9;
+  color: #111111;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.6;
 }
 
 .p9 {
   grid-row: 3;
-  grid-column: 7;
+  grid-column: 7/9;
+  color: #111111;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.6;
 }
 
 .p10 {
   grid-row: 4;
-  grid-column: 7;
+  grid-column: 7/9;
+  color: #111111;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  opacity: 0.6;
 }
 
 .p11 {
   grid-row: 1;
   grid-column: 9;
+  color: #111111;
+  font-family: "Mulish";
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .p12 {
   grid-row: 2;
   grid-column: 9;
+  color: #111111;
+  font-family: "Mulish";
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .p13 {
   grid-row: 3;
   grid-column: 9;
+  color: #111111;
+  font-family: "Mulish";
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .p14 {
   grid-row: 4;
   grid-column: 9;
+  color: #111111;
+  font-family: "Mulish";
+  text-align: right;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=index.css.map */
